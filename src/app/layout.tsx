@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Oswald } from "next/font/google";
 import Providers from "./providers";
 import { Header } from "@/components";
@@ -22,6 +23,7 @@ export default function RootLayout({
             <Providers>
                <Header />
                <main>{children}</main>
+               <SpeedInsights />
             </Providers>
          </body>
       </html>
