@@ -1,0 +1,21 @@
+.categoryCard {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid var(--secondary-clr);
+   border-radius: 20px;
+   transition: 0.2s ease-in-out;
+   padding-block: 75px;
+
+   &:hover {
+      background-color: var(--secondary-clr);
+   }
+}
+
+.category {
+   font-size: 1.2rem;
+
+   &::first-letter {
+      text-transform: uppercase;
+   }
+}

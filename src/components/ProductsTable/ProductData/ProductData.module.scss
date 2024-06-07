@@ -1,0 +1,41 @@
+.user {
+   transition: 0.1s ease-in;
+
+   > td {
+      padding: 5px;
+   }
+
+   &:hover {
+      background-color: var(--secondary-clr);
+   }
+}
+
+.title {
+   width: 65%;
+}
+
+.avatarWrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.avatar {
+   object-fit: contain;
+   object-position: center;
+}
+
+.buttons {
+   display: flex;
+   justify-content: space-evenly;
+   min-width: 120px;
+
+   .button {
+      background-color: transparent;
+      border: none;
+      padding: 5px;
+
+      &:hover {
+         background-color: transparent;
+      }
+   }
+}

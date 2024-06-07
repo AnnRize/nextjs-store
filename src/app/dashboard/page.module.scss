@@ -1,0 +1,15 @@
+.container {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   gap: 20px;
+   grid-template-areas:
+      "balance section"
+      "users section";
+}
+
+.users {
+   grid-area: users;
+}
+.usersHeader {
+   margin-bottom: 10px;
+}

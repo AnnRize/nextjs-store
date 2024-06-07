@@ -1,0 +1,75 @@
+.section {
+   grid-area: section;
+}
+
+.sectionHeader {
+   margin-bottom: 10px;
+}
+
+//agents
+
+.agentsContainer {
+   border: 2px solid var(--secondary-clr);
+   border-radius: 10px;
+   padding: 60px 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.agentsTitle {
+   width: fit-content;
+   padding: 10px 20px;
+   font-size: 1.5rem;
+   border: 2px dashed gray;
+   border-radius: 30px;
+}
+.agents {
+   display: flex;
+   align-items: center;
+   :last-child {
+      margin-left: 10px;
+   }
+}
+.avatar {
+   position: relative;
+   border: 2px solid var(--secondary-clr);
+   border-radius: 50%;
+   margin-left: -10px;
+   transition: 0.1s linear;
+
+   &:hover {
+      transform: translateX(-10px);
+   }
+}
+
+//transaction
+
+.transactionContainer {
+   padding: 20px;
+   border: 2px solid var(--secondary-clr);
+   border-radius: 10px;
+}
+.transactionHeader {
+   margin-bottom: 10px;
+}
+.transactions {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.transaction {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.avatar2 {
+   border: 2px solid var(--secondary-clr);
+   border-radius: 50%;
+}
+.sum {
+   color: var(--green-clr-1);
+}

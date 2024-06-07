@@ -1,0 +1,18 @@
+.details {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+.info {
+   font-size: 1.2rem;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.name {
+   display: inline-block;
+
+   &::first-letter {
+      text-transform: uppercase;
+   }
+}

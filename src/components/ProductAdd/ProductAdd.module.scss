@@ -1,0 +1,23 @@
+.addButton {
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 20px;
+
+   &:hover path {
+      transition: fill 0.2s ease-in-out;
+      fill: var(--primary-clr);
+   }
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.info {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}

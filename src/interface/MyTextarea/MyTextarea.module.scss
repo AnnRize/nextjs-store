@@ -1,0 +1,12 @@
+.myTextarea {
+   width: 100%;
+   outline: none;
+   padding: 10px;
+   background: var(--primary-clr);
+   border: 2px solid var(--secondary-clr);
+   border-radius: 10px;
+   font-size: 1.5rem;
+   font-family: "Oswald";
+   color: white;
+   resize: none;
+}

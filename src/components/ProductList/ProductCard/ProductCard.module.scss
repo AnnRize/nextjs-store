@@ -1,0 +1,24 @@
+.card {
+   display: flex;
+   flex-direction: column;
+   background-color: var(--secondary-clr);
+   padding: 10px;
+   gap: 10px;
+}
+
+.link {
+   font-size: 1.2rem;
+   flex: 1;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+
+   &:hover {
+      color: var(--primary-clr);
+   }
+}
+
+.price {
+   font-size: 1.2rem;
+}

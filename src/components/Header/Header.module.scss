@@ -1,0 +1,29 @@
+.header {
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   border-bottom: 2px solid var(--secondary-clr);
+   background-color: var(--primary-clr);
+
+   position: sticky;
+   top: 0;
+   z-index: 99;
+}
+
+.logo {
+   font-size: 2rem;
+}
+
+.linkList {
+   font-size: 1.3rem;
+   list-style-type: none;
+   display: flex;
+   gap: 20px;
+}
+
+.link {
+   &:hover {
+      color: var(--secondary-clr);
+   }
+}

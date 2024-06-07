@@ -1,0 +1,14 @@
+.form {
+   display: flex;
+   flex-direction: column;
+
+   h2 {
+      margin-bottom: 10px;
+   }
+}
+.info {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-bottom: 20px;
+}

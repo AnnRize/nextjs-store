@@ -1,0 +1,57 @@
+.container {
+   grid-area: balance;
+}
+
+.header {
+   margin-bottom: 10px;
+}
+
+.balance {
+   display: flex;
+   gap: 20px;
+}
+
+.balanceCard {
+   flex: 1;
+   border: 2px solid var(--secondary-clr);
+   border-radius: 10px;
+   padding: 20px;
+   max-width: 370px;
+   font-size: 0.8rem;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.name {
+   font-size: 1.1rem;
+}
+
+.moneyWrapper {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.money {
+   font-size: 1.3rem;
+}
+
+.percent {
+   color: var(--green-clr-1);
+}
+
+.diffWrapper {
+   display: flex;
+   gap: 40px;
+}
+.diff {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.arrowDown {
+   color: var(--green-clr-1);
+}
+.arrowUp {
+   color: var(--red-clr-1);
+}

@@ -1,0 +1,16 @@
+.container {
+   min-height: var(--container-minH);
+   display: flex;
+   align-items: center;
+   background: url("/back.jpg") no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.title {
+   padding-block: 100px;
+   width: 100%;
+   text-align: center;
+   backdrop-filter: blur(10px);
+   background-color: rgba(0, 0, 0, 0.4);
+}

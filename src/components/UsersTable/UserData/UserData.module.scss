@@ -1,0 +1,46 @@
+.user {
+   transition: 0.1s ease-in;
+
+   > td {
+      padding: 5px;
+   }
+
+   &:hover {
+      background-color: var(--secondary-clr);
+   }
+}
+
+.name {
+   display: inline-block;
+
+   &::first-letter {
+      text-transform: uppercase;
+   }
+}
+
+.avatarWrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.avatar {
+   border-radius: 50%;
+   border: 2px solid var(--secondary-clr);
+}
+
+.buttons {
+   display: flex;
+   justify-content: space-evenly;
+   min-width: 120px;
+
+   .button {
+      background-color: transparent;
+      border: none;
+      padding: 5px;
+
+      &:hover {
+         background-color: transparent;
+      }
+   }
+}
